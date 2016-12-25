@@ -1,0 +1,234 @@
+html,body {
+  height: 100%;
+}
+
+body{
+  background: #E0E0E0;
+
+}
+
+header {
+    background-image: url(../img/castelo.jpg);
+    background-position: top center;
+    background-size: cover;
+    background-attachment: fixed;
+    transition: 0.3s ease-in-out;
+    max-width: 100%;
+    height: 100%;
+    position: relative;
+
+}
+
+.topCasaFina-banner h1{
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 900;
+  text-shadow: 0 0 0.02em;
+  transition: 0.3s ease-in-out;
+}
+
+
+blockquote{
+padding: 10px 20px;
+margin: 0;
+font-size: 17.5px;
+border: none
+}
+
+
+.topCasaFina-banner{
+  padding: 1em 1em;
+  background: rgba(0, 0, 0, 0.5);
+  width: 80%;
+  max-width: 400px;
+  min-width:  223px;
+  position: absolute;
+  color: #fff;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  transition: 0.3s ease-in-out;
+
+
+}
+
+.topCasaFina-banner:hover, .topCasaFina-banner:focus, .topCasaFina-banner:active{
+
+  transform: translate(-50%,-50%) scale(1.01)  !important;
+  transition: 0.5s ease-in-out;
+  box-shadow: 0 0 0.5em;
+}
+
+
+header *{
+  transition: 2s ease-in-out;
+}
+
+#seta-esquerda{
+  left: 25%;
+
+}
+
+#seta-direita{
+  right: 25%;
+
+}
+
+main{
+
+
+  opacity: 0;
+  -moz-animation: zemslideup 1s ease-in-out,fadeIn 0.5s ease-in-out 1s forwards;
+  -webkit-animation:zemslideup 1s ease-in-out,fadeIn 0.5s ease-in-out 1s forwards;
+  animation: zemslideup 1s ease-in-out,fadeIn 0.5s ease-in-out 1s forwards;
+}
+
+.btn-enviar{
+  box-shadow: 0 0 0.5em !important;
+  transition: 1s ease-in-out !important;
+  margin-bottom: 1em !important;
+}
+
+section *{
+
+    -webkit-transition: opacity 1s ease-in-out, transform 1s ease-in-out !important;
+    -moz-transition: opacity 1s ease-in-out, transform 1s ease-in-out !important;
+    transition: opacity 1s ease-in-out, transform 1s ease-in-out !important;
+}
+
+aside *{
+
+  -webkit-transition: opacity 0.75s ease-in-out, transform 0.75s ease-in-out !important;
+  -moz-transition: opacity 0.75s ease-in-out, transform 0.75s ease-in-out !important;
+  transition: opacity 0.75s ease-in-out, transform 0.75s ease-in-out !important;
+}
+
+#video{
+  padding-bottom: 1em;
+}
+
+@keyframes fadeIn {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+  }
+}
+
+@keyframes zemslideup {
+  0% {
+    transform: translateY(80px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+
+.conteudo{
+  background: #fff;
+  transition: opacity 0.75s ease-in-out, transform 0.75s ease-in-out !important;
+}
+
+.footer{
+  background: #333;
+  transition: 1s ease-in-out;
+  color: #fff;
+}
+
+.footer h2{
+  font-weight: 900;
+  text-shadow: 0 0 0.02em;
+  transition: 1s ease-in-out;
+}
+
+.jumbotron{
+  margin-bottom: 0;
+}
+
+.thumbnail{
+  box-shadow: 0 0 0.1em #eee;
+}
+
+.thumbnail:hover, .thumbnail:focus, .thumbnail:active{
+  box-shadow: 0 0 0.2em #eee;
+  transform: scale(1.01);
+  opacity: 0.95;
+}
+
+.container, .jumbotron, .thumbnail {
+  transition: 1s ease-in-out;
+}
+
+.panel, .panel-body, .panel-title, .panel-heading, .panel-default{
+  transition: 0.5s ease-in-out;
+}
+
+.panel{
+  margin: 0.5em 0;
+  box-shadow: 0 0 0.1em #eee;
+}
+
+.panel:hover, .panel:focus, .panel:active{
+  box-shadow: 0 0 0.2em #eee;
+  transform: scale(1.01);
+  opacity: 0.95;
+}
+
+img{
+  transition: 0.5s ease-in-out;
+}
+
+img:hover, img:active, img:focus{
+  transform: scale(1.01);
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+  box-shadow: 0 0 0.1em #eee;
+  opacity: 0.95;
+}
+
+
+.clear{
+  clear:both;
+  transition: 1s ease-in-out;
+}
+
+.transition-1s{
+    transition: 1s ease-in-out;
+}
+
+.depoimentos-clientes{
+    padding: 1em;
+    background: #0275d8;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-weight: 900;
+    color: #fff;
+    transition: 1s ease-in-out;
+    max-width: 100%;
+    height: auto;
+}
+
+.depoimentos-clientes h2{
+  font-weight: 900;
+  font-size: 24px;
+  color: #fff;
+  transition: 1s ease-in-out;
+  text-shadow: 0 0 0.1em #000;
+}
+
+#sobre-nos{
+  padding-bottom: 1em;
+}
+
+#paineis-sobre{
+    margin-top: 1em;
+    transition: 1s ease-in-out;
+}
+
+
+#myCarousel{
+  padding: 0;
+  transition: 1s ease-in-out;
+}
